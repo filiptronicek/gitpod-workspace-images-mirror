@@ -17,8 +17,6 @@ jobs:
             repo: docker.io
           - image: gitpod/openvscode-server
             repo: docker.io
-          - image: gitpod/workspace-java-17
-            repo: docker.io
           - image: gitpod/workspace-mongodb
             repo: docker.io
           - image: gitpod/workspace-base
@@ -31,7 +29,32 @@ jobs:
             repo: docker.io
           - image: gitpod/workspace-postgres
             repo: docker.io
-
+          - image: gitpod/workspace-c
+            repo: docker.io
+          - image: gitpod/workspace-clojure
+            repo: docker.io
+          - image: workspace-go
+            repo: docker.io
+          - image: workspace-java-11
+            repo: docker.io
+          - image: gitpod/workspace-java-17
+            repo: docker.io
+          - image: gitpod/workspace-node
+            repo: docker.io
+          - image: gitpod/workspace-node-lts
+            repo: docker.io
+          - image: gitpod/workspace-python
+            repo: docker.io
+          - image: workspace-ruby-3
+            repo: docker.io
+          - image: workspace-ruby-3.0
+            repo: docker.io
+          - image: workspace-ruby-3.1
+            repo: docker.io
+          - image: gitpod/workspace-rust
+            repo: docker.io
+          - image: gitpod/workspace-elixir
+            repo: docker.io
     steps:
       - uses: actions/checkout@v3
       - uses: docker/login-action@v2
