@@ -33,9 +33,9 @@ jobs:
             repo: docker.io
           - image: gitpod/workspace-clojure
             repo: docker.io
-          - image: workspace-go
+          - image: gitpod/workspace-go
             repo: docker.io
-          - image: workspace-java-11
+          - image: gitpod/workspace-java-11
             repo: docker.io
           - image: gitpod/workspace-java-17
             repo: docker.io
