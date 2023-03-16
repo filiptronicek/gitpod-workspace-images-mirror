@@ -1,2 +1,2 @@
-# gitpod-workspace-images-mirror
+# [`gitpod-io/workspace-images`](https://github.com/gitpod-io/workspace-images) mirror
 A mirror of Gitpod's workspace images in ghcr.io
