@@ -21,7 +21,15 @@ jobs:
             repo: docker.io
           - image: gitpod/workspace-mongodb
             repo: docker.io
-          - image: gitpod/workspace-mongodb
+          - image: gitpod/workspace-base
+            repo: docker.io
+          - image: gitpod/workspace-dotnet
+            repo: docker.io
+          - image: gitpod/workspace-full-vnc
+            repo: docker.io
+          - image: gitpod/workspace-mysql
+            repo: docker.io
+          - image: gitpod/workspace-postgres
             repo: docker.io
 
     steps:
