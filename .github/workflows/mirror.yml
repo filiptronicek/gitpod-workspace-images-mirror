@@ -45,12 +45,6 @@ jobs:
             repo: docker.io
           - image: gitpod/workspace-python
             repo: docker.io
-          - image: workspace-ruby-3
-            repo: docker.io
-          - image: workspace-ruby-3.0
-            repo: docker.io
-          - image: workspace-ruby-3.1
-            repo: docker.io
           - image: gitpod/workspace-rust
             repo: docker.io
           - image: gitpod/workspace-elixir
