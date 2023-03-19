@@ -66,7 +66,7 @@ jobs:
         with:
           registry: registry.gitlab.com
           username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITLAB_PAT }}
+          password: ${{ secrets.GLCR_PAT }}
       - uses: actions/setup-go@v3
       - uses: imjasonh/setup-crane@v0.3
       - name: Mirror
