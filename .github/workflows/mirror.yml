@@ -70,4 +70,8 @@ jobs:
             crane copy \
               ${{ matrix.repo }}/${{ matrix.image }}:$tag \
               ghcr.io/${{ github.repository_owner }}/$(echo "${{ matrix.image }}" | tr '/' '-'):$tag
+            # copy to GitLab's Registry as well
+            crane copy \
+              ghcr.io/${{ github.repository_owner }}/$(echo "${{ matrix.image }}" | tr '/' '-'):$tag \
+              registry.gitlab.com/filiptronicek/gitpod-workspace-images-mirror/${{ matrix.image }}:$tag
           done
